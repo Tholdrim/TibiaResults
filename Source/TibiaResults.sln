@@ -1,9 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TibiaResults.Core", "TibiaResults.Core\TibiaResults.Core.csproj", "{72221B6A-83D1-47C0-9C1B-504A567BFF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TibiaResults.Formatters", "TibiaResults.Formatters\TibiaResults.Formatters.csproj", "{EE31ED91-B7BF-49B0-84C7-C298E1F8A918}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +17,15 @@ Global
 		{72221B6A-83D1-47C0-9C1B-504A567BFF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72221B6A-83D1-47C0-9C1B-504A567BFF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72221B6A-83D1-47C0-9C1B-504A567BFF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE31ED91-B7BF-49B0-84C7-C298E1F8A918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE31ED91-B7BF-49B0-84C7-C298E1F8A918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE31ED91-B7BF-49B0-84C7-C298E1F8A918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE31ED91-B7BF-49B0-84C7-C298E1F8A918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B482D219-6B67-4D2A-B7F0-E7E052B20406}
+		SolutionGuid = {7FF6A864-7099-4A0D-8838-9BB9764958C3}
 	EndGlobalSection
 EndGlobal

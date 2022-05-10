@@ -113,12 +113,12 @@
         {
             if (oldHighscore == null || newHighscore == null)
             {
-                return CategoryResult.CreateNotAvailable();
+                return new NotAvailableCategoryResult();
             }
 
             var resultEntries = resultEntriesGettingDelegate().ToList();
 
-            return CategoryResult.Create(resultEntries);
+            return new CategoryResult(resultEntries);
         }
     }
 }

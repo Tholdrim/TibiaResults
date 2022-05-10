@@ -1,4 +1,6 @@
-﻿namespace TibiaResults.Core
+﻿using TibiaResults.Core;
+
+namespace TibiaResults.Formatters
 {
     public interface IResultFormatter
     {
